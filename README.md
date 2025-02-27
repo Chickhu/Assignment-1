@@ -21,3 +21,19 @@ elif 60 <= marks < 70:
     print("D")
 else:
     print("Fail")
+
+Questions 2 Write a Python program to check if a given year is a leap year or not.
+year=int(input("enter the year : ")>
+ if(year%4==0):
+ if(year%100==0)
+if (year%400==0):
+print("this is a leap year")
+
+else:
+ print("this is not leap year")
+else:
+print("this is a leap year")
+ else:
+print("this is not aleap year")
+13 ##enter the year : 2024
+14 ##this is a leap year
