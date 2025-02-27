@@ -116,5 +116,19 @@ print(lst)  # Output: [1, 2, 3]
 lst = [1, 2, 3]
 tup = tuple(lst)
 print(tup)  # Output: (1, 2, 3)
-```
+
+Questions 5 How do lists and tuples differ in terms of mutability performance? When would you choose one over the other?
+
+1. Mutability: Lists vs. Tuples
+Lists are mutable, meaning you can modify, add, or remove elements after creation.
+Tuples are immutable, meaning once created, they cannot be changed (no adding, removing, or modifying elements).
+
+2. Performance: Lists vs. Tuples
+Tuples are faster than lists because they are immutable and do not require dynamic memory allocation.
+Lists are slower because they support operations like appending, inserting, and resizing, which require extra processing.
+
+
+
+
+
 
