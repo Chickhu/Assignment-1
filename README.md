@@ -37,3 +37,84 @@ print("this is a leap year")
 print("this is not aleap year")
 13 ##enter the year : 2024
 14 ##this is a leap year
+
+Questions 3 Take a number and use the += operator to increase its value
+a=10
+a+=5
+print(a)
+
+Questions 4 Explain how Python handles type conversion between different data
+types, such as between integers and floats or between strings and lists.
+Python handles type conversion in two ways: 
+
+**1. Implicit Type Conversion (Automatic)**
+Python automatically converts one data type into another when it makes sense mathematically or logically.  
+
+
+#### Example:
+```python
+x = 5      # Integer
+y = 2.5    # Float
+result = x + y  # x is implicitly converted to float
+print(result)   
+
+
+### **2. Explicit Type Conversion (Type Casting)**
+If Python does not automatically convert data types, you can use built-in functions to convert types manually.
+
+#### **Common Type Conversion Functions**
+| Function  | Converts To |
+|-----------|------------|
+| `int(x)`  | Integer    |
+| `float(x)` | Float     |
+| `str(x)`  | String     |
+| `list(x)` | List       |
+| `tuple(x)` | Tuple     |
+| `set(x)`  | Set       |
+| `dict(x)` | Dictionary (from key-value pairs) |
+
+#### **Examples:**
+
+##### **Integer to Float Conversion**
+```python
+num = 10
+converted_num = float(num)
+print(converted_num)  # Output: 10.0
+```
+
+##### **String to Integer Conversion**
+```python
+s = "123"
+num = int(s)
+print(num)  # Output: 123
+```
+(Note: This works only if the string contains valid numeric characters.)
+
+##### **List to String Conversion**
+```python
+lst = ['H', 'e', 'l', 'l', 'o']
+s = ''.join(lst)  # Joins list elements into a string
+print(s)  # Output: Hello
+```
+
+##### **String to List Conversion**
+```python
+s = "Hello"
+lst = list(s)
+print(lst)  # Output: ['H', 'e', 'l', 'l', 'o']
+```
+
+##### **Tuple to List Conversion**
+```python
+tup = (1, 2, 3)
+lst = list(tup)
+print(lst)  # Output: [1, 2, 3]
+```
+
+##### **List to Tuple Conversion**
+```python
+lst = [1, 2, 3]
+tup = tuple(lst)
+print(tup)  # Output: (1, 2, 3)
+```
+
